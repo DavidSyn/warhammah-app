@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
         String encodedHtml = encodeToString(unencodedHtml.getBytes(), NO_PADDING);
         myWebView.loadData(encodedHtml, "text/html", "base64");
 
-        // TODO this is where the web page should be loaded
-        //myWebView.loadUrl("https://www.google.se/");
-
         // src:
         //https://developer.android.com/guide/webapps/webview#java
     }
